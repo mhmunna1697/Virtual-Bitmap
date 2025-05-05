@@ -1,4 +1,4 @@
-# Virtual Bitmap
+# Implementation of Multi-Flow-Spread Sketche
 
 This project implements the **Virtual Bitmap** algorithm to estimate the spread (number of distinct elements) of network flows using a compact probabilistic data structure.
 
@@ -26,9 +26,8 @@ Let:
 
 Then the estimated spread for a flow is:
 
-\[
-\text{Estimated} = l \cdot \ln\left(\frac{V_m}{V_f}\right)
-\]
+Estimated = l * ln(Vm / Vf)
+
 
 ## 📥 Input
 
