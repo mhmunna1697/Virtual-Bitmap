@@ -44,7 +44,7 @@ Each subsequent line contains a flow ID and its true spread (tab-separated).
 200.158.26.238 5
 ...
 
-```text
+```
 
 
 ## ▶️ Execution
@@ -69,4 +69,4 @@ The Java program performs the following:
 20 20
 5 5
 ...
-```text
+```
