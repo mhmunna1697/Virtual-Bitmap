@@ -35,6 +35,7 @@ The input file `project5input.txt` contains flow data.
 The first line is the number of flows (`n`).  
 Each subsequent line contains a flow ID and its true spread (tab-separated).
 
+```text
 **Example input:**
 8507
 49.77.20.20 9
@@ -42,6 +43,8 @@ Each subsequent line contains a flow ID and its true spread (tab-separated).
 88.100.184.82 20
 200.158.26.238 5
 ...
+
+```text
 
 
 ## ▶️ Execution
@@ -59,10 +62,11 @@ The Java program performs the following:
 - `virtual_bitmap_output.txt`: Contains two numbers per line – the true spread and the estimated spread.
 - A Python script (`plot_virtual_bitmap.py`) is provided to generate a figure of true vs. estimated spread and save it as a PDF.
 
+```text
 **Sample Output:**
-
 9 8
 205 211
 20 20
 5 5
 ...
+```text
